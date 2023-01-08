@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+} 
+
+
+
+.business-card-1{
+  border-radius: 40px;
+  background-color: #1A1B21;
+  width: 35%;
+  /* height: 700px; */
+}
+
+.profile-pic {
+  border-radius: 40px 40px 0px 0px;
+  width: 100%;
+}
+
+.main-container{
+  padding: 50px;
+}
+
+.Info-name > h4{
+  color: #FFFFFF;
+  font-size: 25px;
+  margin: 0;
+  height: 25px;
+}
+
+.Info-name > h5{
+  color: #F3BF99;
+  font-size: 12px;
+  margin: 0;
+  height: 14px;
+}
+
+.Info-name > h6{
+  color: #F5F5F5;
+  font-size: 10.24px;
+  margin: 0;
+  height: 16px;
+}
+
+.Info-name > h4, .Info-name > h5, .Info-name > h6{
+  padding-block: 5px;
+  /* width: 178px; */
+}
+
+.Info-name{
+  text-align: center;
+  /* background-color: #F3BF99; */
+}
+
+.InterestDiv, .AboutDiv{
+  padding: 0;
+  color: #DCDCDC;
+
+}
+
+.InterestDiv > h3, .AboutDiv > h3{
+  font-size: 16px;
+}
+
+.InterestDiv > h5, .AboutDiv > h5{
+  font-size: 10.24px;
+}
+
+.footer-nav{
+  background-color: #161619;
+  border-radius: 0px 0px 40px 40px;
+  height: 50px;
+  padding: 30px 25px;
+  color: #DEEBF8;
+  font-size: 12px;
+}
