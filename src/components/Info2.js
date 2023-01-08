@@ -5,7 +5,6 @@
 import {
     DP,
     EmailSvg,
-    LinkedInSvg
   } from '../images'
 
 export default function InfoCompnet(){
@@ -18,8 +17,7 @@ export default function InfoCompnet(){
             <h6>laurasmith.website</h6>
           </div>
           <div className='Info-socials'>
-            <img src={EmailSvg} alt="email" />
-            <img src={LinkedInSvg} alt="linkedin" className='img2' />
+            <img src={EmailSvg} alt="email" className='img1' />
           </div>
       </div>
     )

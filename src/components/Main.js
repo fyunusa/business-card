@@ -1,8 +1,10 @@
 
 import Info from './Info';
+import Info2 from './Info2';
 import About from './About';
 import Interest from './Interest';
 import Footer from './Footer';
+import Footer2 from './Footer2';
 
 
 export default function MainCompnet(){
@@ -14,8 +16,12 @@ export default function MainCompnet(){
             <Interest />
             <Footer />
         </div>
-          
-          
+        <div className='business-card-2'>
+            <Info2 />
+            <About />
+            <Interest />
+            <Footer2 />
+        </div>
       </div>
     )
 }

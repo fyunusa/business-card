@@ -4,6 +4,7 @@ import {
     Facebook,
     Instagram,
     Twitter,
+    LinkedIn
 } from '../images'
 
 export default function FooterCompnet(){
@@ -15,6 +16,7 @@ export default function FooterCompnet(){
                 <li><img src={Facebook} alt="logo" /></li>
                 <li><img src={Instagram} alt="logo" /></li>
                 <li><img src={Twitter} alt="logo" /></li>
+                <li><img src={LinkedIn} alt="logo" /></li>
             </ul>
         </div>
         
